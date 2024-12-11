@@ -1,0 +1,50 @@
+### IntelliJ IDEA ###
+out/
+
+# Archivos específicos de configuración de IntelliJ
+.idea/
+*.iml
+
+# No ignorar archivos de salida dentro de las carpetas src/main y src/test
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Archivos específicos para proyectos de Maven/Gradle que IntelliJ genera
+/.gradle/
+/target/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+
+
+
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
