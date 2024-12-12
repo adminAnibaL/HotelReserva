@@ -2,7 +2,7 @@ package Services;
 
 import Models.Room;
 
-import java.sql.SQLOutput;
+
 
 public class Services {
 
@@ -19,6 +19,10 @@ public class Services {
         System.out.println("Su precio por noche " + String.format("%.2f €",room.getPrecioNoche()));
         System.out.println("Tiene vistas al mar [" + (room.isVistasMar() ?  "SI" : "NO")+ "]");
 
-
     }
+
+
+
+
+
 }
